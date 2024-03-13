@@ -1,0 +1,5 @@
+@font-face { font-family: SM; src: url('/fonts/space_marine/SM.TTF'); } 
+
+.body-font-bm {
+    font-family: SM;
+}
