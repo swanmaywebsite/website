@@ -1,0 +1,19 @@
+.scrolling_text_wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    white-space: nowrap;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(100%, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+#scroll_text {
+    animation: animate_text 30s linear infinite; /* The animation property */
+}

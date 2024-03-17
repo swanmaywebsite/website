@@ -5,3 +5,11 @@
 # Sources
 - Fonts
     - https://www.dafont.com/de/space-marine.font 
+- Icons
+    - https://github.com/twbs/icons/releases/tag/v1.11.3
+    - https://icons.getbootstrap.com/
+- CSS
+    - https://getbootstrap.com/docs/5.3/getting-started/download/
+- Scroll Effect
+    - https://www.myoussouf.com/blog/horizontal-scrolling-text-css
+    - edited scroll.css line 10 from 50%
