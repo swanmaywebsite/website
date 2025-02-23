@@ -10,6 +10,7 @@
     <link href="/custom-css/fonts.css" rel="stylesheet">
     <link href="/custom-css/index.css" rel="stylesheet">
     <link href="/custom-css/scroll.css" rel="stylesheet">
+    <link href="/custom-css/scroll-banner.css" rel="stylesheet">
     <script src="/js/scroll.js"></script>
 
     <!-- Bootstrap -->
@@ -22,21 +23,58 @@
 
 <body class="body-bg-color-black body-font-bm">
 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Swanmay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="bi-list" style="font-size: 2rem; color: cornflowerblue;"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://swanmay.bandcamp.com/music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://swanmay.bandcamp.com/merch">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCNMyZcmRGRc968jV1alXFdw">Video</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
 
     <!-- Image and text -->
-    <nav class="navbar">
-        <a class="navbar-brand" href="#">
-            <img class="d-inline-block align-top img-fluid ms-5 mt-2" src="/assets/SWANMAY_Logo_2024_W.png" alt="logo"
-                style="max-width: 10em;">
-        </a>
-    </nav>
-    <div class="p-5 text-white">
-        <h1>Test is on Fire.</h1>
-        <!-- <p>tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates -
-            tourdates - tourdates </p> -->
+    <div class="container text-white mb-4">
+        <div class="row text-center">
+            <a href="#">
+                <img class="d-inline-block align-top img-fluid mt-2" src="/assets/SWANMAY_Logo_2024_W.png"
+                    alt="logo" style="max-width: 13em;">
+            </a>
+        </div>
     </div>
+
+
+
+    <!-- <div class="p-5 text-white">
+        <h1>Test is on Fire.</h1>
+        <p>tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates - tourdates -
+            tourdates - tourdates </p>
+    </div> -->
+
+
+
     <div class="container text-white">
-        <div class="row">
+        <!-- scroll text 1 -->
+
+        <!-- <div class="row">
             <div class="col-md-12">
                 <div class="scrolling_text_wrapper">
                     <div id="scroll_text">
@@ -44,16 +82,38 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <!-- / scroll text 1 -->
+
+        <!-- scroll text 2 -->
+        <!-- TODO CONTINUE -->
+        <!-- <div class="row border border-white"> -->
+        <div class="row ">
+            <div class="col-md-12">
+                <div id='scroll-container'>
+                    <div class='scroll-banner'>
+                        <div class='item'>Arena Vienna - 06.03.2025</div>
+                        <div class='item'>Alte Schule Gutau - 07.03.2025</div>
+                        <div class='item'>Item 3</div>
+                        <div class='item'>Item 4</div>
+                    </div>
+                    <div class='fade'></div>
+                </div>
+            </div>
         </div>
+        <!-- / scroll text 2 -->
 
 
 
-        <div class="container mt-1">
+
+        <div class="container mt-1 text-center">
             <img class="d-inline-block align-top img-fluid" src="/assets/sm_1200x767_nologo.jpg" alt="foto">
         </div>
 
         <div class="mt-5 p-4 bg-dark text-white text-center">
-            <p>Instagram <i class="bi-instagram" style="font-size: 2rem; color: cornflowerblue;"></i></p>
+            <!-- <div class="fixed-bottom"> -->
+                <p>Instagram <i class="bi-instagram" style="font-size: 2rem; color: cornflowerblue;"></i></p>
+            <!-- </div> -->
         </div>
 
 </body>
