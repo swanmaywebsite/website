@@ -5,6 +5,7 @@
 # Sources
 - Fonts
     - https://www.dafont.com/de/space-marine.font 
+    - https://www.dafont.com/gontserrat.font 
 - Icons
     - https://github.com/twbs/icons/releases/tag/v1.11.3
     - https://icons.getbootstrap.com/
