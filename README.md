@@ -13,3 +13,5 @@
     - https://getbootstrap.com/docs/5.3/getting-started/download/
 - Scroll Effect Marquee
     - https://codepen.io/hexagoncircle/pen/eYMrGwW
+- responsiveness
+    - https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images
