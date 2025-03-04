@@ -11,6 +11,5 @@
     - https://icons.getbootstrap.com/
 - CSS
     - https://getbootstrap.com/docs/5.3/getting-started/download/
-- Scroll Effect
-    - https://www.myoussouf.com/blog/horizontal-scrolling-text-css
-    - edited scroll.css line 10 from 50%
+- Scroll Effect Marquee
+    - https://codepen.io/hexagoncircle/pen/eYMrGwW
