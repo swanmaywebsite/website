@@ -1,5 +1,9 @@
-@font-face { font-family: SM; src: url('/fonts/space_marine/SM.TTF'); } 
+@font-face {
+    font-family: GONSERAT;
+    src: url('/fonts/gontserrat/Gontserrat-Regular.ttf')
+}
 
 .body-font-bm {
-    font-family: SM;
+    font-family: GONSERAT;
 }
+
