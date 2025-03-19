@@ -34,7 +34,7 @@
   
   /* Enable animation */
   .enable-animation .marquee__content {
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
   }
   
   /* Reverse animation */

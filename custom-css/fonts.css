@@ -1,9 +1,22 @@
 @font-face {
+    font-family: GONSERAT-BOLD;
+    src: url('/fonts/gontserrat/Gontserrat-Bold.ttf')
+}
+
+@font-face {
     font-family: GONSERAT;
     src: url('/fonts/gontserrat/Gontserrat-Regular.ttf')
 }
+
 
 .body-font-bm {
     font-family: GONSERAT;
 }
 
+.display-header-font {
+    font-family: GONSERAT-BOLD;
+}
+
+.custom-fontsize-navbar-menu-items {
+    font-size: 1.5em;
+}
