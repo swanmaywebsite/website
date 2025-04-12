@@ -117,7 +117,7 @@ h2 {
 }
 
 section {
-  margin-block: 3rem;
+  margin-block: 0rem;
 }
 
 section > * + * {
