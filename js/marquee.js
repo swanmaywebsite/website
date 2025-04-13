@@ -9,6 +9,8 @@ function setScrollText() {
                 const h4 = document.createElement("h4")
                 h4.innerText = tourDate
                 text.appendChild(h4)
+                // TODO: remove debug line
+                h4.classList.add("bg-primary")
             });
             // text.innerText = tourdates.join(" - ")
             const textHidden = document.getElementById("marquee-content-2")
@@ -16,6 +18,8 @@ function setScrollText() {
                 const h4 = document.createElement("h4")
                 h4.innerText = tourDate
                 textHidden.appendChild(h4)
+                // TODO: remove debug line
+                h4.classList.add("bg-secondary")
             });
             // text.innerText = tourdates.join(" - ")
         })
